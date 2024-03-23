@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/backOfficeStyle.css" />
+    <link rel="stylesheet" href="./styles/globalStyle.css" />
+    <link rel="stylesheet" href="./styles/headerStyle.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/favicon_io/site.webmanifest" />
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <title>OFPPT SYSTEM | الصفحة الرئيسية</title>
+  </head>
+  <body>
+    <!--! I header layout -->
+    <header>
+      <div class="header-inner">
+      <div class="logo">
+        <a href="#">
+          <img src="./images/logo/ofppt-logo.png" alt="OFFPT" title="OFFPT">
+        </a>
+      </div>
+      <ul class="nav">
+        <li class="print outline" role="button">
+          <a href="#" alt="طباعة" title="طباعة">
+            <span class="iconify" data-icon="solar:printer-2-linear"></span>
+          </a>
+        </li>
+        <li class="logout outline" role="button">
+          <a href="#" alt="تسجيل الخروج" title="تسجيل الخروج">
+            <span class="iconify" data-icon="solar:logout-2-outline"></span>
+          </a>
+        </li>
+        <li class="user isAdmin">
+          <img class="avatar" src="./images/user/admin.png" alt="محمد" title="محمد">
+          <ul class="meta">
+            <li class="userName">Mohamed</li>
+            <li class="userAccess">Administration</li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </header>
+
+    <div class="main-wrapper"><!--! main-wrapper start -->
+
+
+    <!--! II students bar layout -->
+    <div class="studentCountBar">
+      <div class="studentCountBar-inner">
+        <div class="col-1">
+          <img src="./images/user/student-layer.png" alt="">
+        </div>
+        <div class="col-2">
+          <ul>
+            <li class="fill">84 Student</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--! III section navigation layout -->
+    <div class="secNav">
+      <ul class="tabsSelect">
+        <li class="tab outline" id="tab-1">
+          <img class="overlay-image" src="./images/layers/raw.webp">
+          <span class="tab-name">Raw</span>
+          <p class="tab-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </li>
+        <li class="tab outline" id="tab-2">
+          <img class="overlay-image" src="./images/layers/kitchen.png">
+          <span class="tab-name">Kitchen</span>
+          <p class="tab-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </li>
+      </ul>
+    </div>
+
+    </div><!--! mainWrapper end -->
+
+    <!--! IV raw & kitchen materials layout -->
+    <section id="container">
+      <!--* 1 raw materials section -->
+      <div class="rawSec"></div>
+      <!--* 2 kitchen materials section -->
+      <div class="kitchenSec"></div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
