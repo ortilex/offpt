@@ -1,0 +1,91 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    font-variant-numeric: tabular-nums;
+    font-family: "Cairo", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+body {
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+:root {
+    --max-width: 1200px;
+    --width: 95%;
+
+    --cards-radius: 12px;
+    --buttons-radius: 8px;
+    --form-radius: 10px;
+
+    --p-size: clamp(0.8rem, 4vw, 1rem);
+    --h1-size: clamp(2.5rem, 8vw, 3rem);
+    --h2-size: clamp(1.5rem, 2vw, 1.8rem);
+
+    --p-line-height: 2;
+    --h1-line-height: 1.2;
+    --h2-line-height: 1;
+
+    --h1-padding: 0 0 1rem 0;
+    --p-padding: 0 0.5rem 1.1rem 0.25rem;
+    --buttons-padding: 0.8rem 1rem;
+
+    --transition: 0.7s ease;
+
+    --p-weight: 500;
+    --background-color: #fbfafe;
+    --background-gradient: linear-gradient(to right, #3099420e, #8422223d);
+    --background-color2: #f9f9f9;
+    --text-color: #323232;
+    --main-color: #1164e9;
+    --second-color: #309942;
+    --header-color: rgba(255, 255, 255, 0.5);
+    --shadows-color: 0 0px 3.5px -1px rgba(0, 0, 0, 0.4);
+    --p-color: rgb(173, 166, 166);
+    --buttons-border: #e4e4e7;
+    --mode-card: rgb(255, 255, 255, 0.8);
+
+    --header-background: #ffffff;
+
+    /* @media (prefers-color-scheme: dark) {
+        --background-gradient: linear-gradient(to right, #30994215, #84222223);
+        --mode-card: rgb(44, 44, 44, 0.8);
+        --background-color: rgba(18, 18, 18);
+        --background-color2: #1b1b1b;
+        --text-color: #fff;
+        --main-color: #fd4d56;
+        --second-color: #69fe81;
+        --header-color: rgb(44, 44, 44, 0.8);
+        --shadows-color: 0 0px 3.5px -1px rgba(255, 229, 229, 0.4);
+        --p-color: rgb(139, 136, 136);
+        --buttons-border: #55555d;
+    } */
+}

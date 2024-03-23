@@ -1,0 +1,79 @@
+.studentCountBar-inner {
+    background: linear-gradient(156.8deg, rgb(30, 144, 231) 27.1%, rgb(67, 101, 225) 77.8%);
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10%;
+    white-space: nowrap;
+}
+
+.main-wrapper {
+    display: grid;
+    grid-template-columns: 220px auto;
+    max-width: var(--max-width);
+    margin: 3em auto;
+    padding: 0 20px;
+    grid-gap: 40px;
+}
+
+.studentCountBar-inner .col-1 img {
+    /* width: 100%; */
+}
+
+img {
+    width: 100%;
+}
+
+.studentCountBar-inner .col-1 {
+    display: flex;
+    overflow: hidden;
+    left: -30px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.studentCountBar-inner .col-2 {
+    position: relative;
+    right: 25px;
+    bottom: 20px;
+}
+
+.studentCountBar-inner .col-2 ul li {
+    /* display: flex; */
+    padding: 10px 12px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.tabsSelect .tab {
+    border: 1px solid #f1f1f1;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsSelect {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.secNav {
+    display: flex;
+}
+
+.tabsSelect .tab .overlay-image {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 0;
+    opacity: .05;
+    filter: sepia(1);
+}
+
+.tabsSelect .tab .tab-name {}

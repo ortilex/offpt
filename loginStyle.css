@@ -1,0 +1,92 @@
+#loginSection {
+    min-height: 90.5vh;
+    padding: 3rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+}
+
+#loginSection h1 {
+    font-size: var(--h1-size);
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#loginSection h1 span {
+    background: linear-gradient(to right, var(--main-color) 10%, var(--text-color) 90%);
+    background-size: 100% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#signForm {
+    width: 100%;
+    max-width: 21.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#signForm .nameContainer,
+.passContainer {
+    position: relative;
+    width: 100%;
+    max-width: 21.8rem;
+}
+
+#signForm input {
+    max-width: 21.8rem;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid RGB(188, 188, 188);
+    outline-color: var(--main-color);
+    padding: 0 2.3rem 0 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+}
+
+#signForm label {
+    color: var(--text-color);
+    margin: 0.5rem 0.1rem 0 0;
+    text-align: right !important;
+    font-size: var(--p-size);
+}
+
+#signForm .iconify {
+    position: absolute;
+    top: 24%;
+    transform: translate(0, -60%);
+    right: 2%;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+#logToAcc {
+    border: none;
+    margin: 2rem 0 0 0;
+    font-size: var(--p-size);
+    text-align: center;
+    font-weight: 400;
+    border-radius: 5px;
+    height: 3rem;
+    width: 100%;
+    max-width: 21.8rem;
+    background-color: var(--main-color);
+    color: #fff;
+    transition: 0.7s ease;
+    filter: drop-shadow(0 0 0px var(--main-color));
+    cursor: pointer;
+
+}
+
+#logToAcc:hover {
+    filter: drop-shadow(0 0 7px var(--main-color));
+}

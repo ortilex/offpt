@@ -1,0 +1,56 @@
+.header-inner {
+    max-width: var(--max-width);
+    padding: 30px 20px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.header-inner .nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header-inner .nav .outline a {
+    border: 1px solid #999;
+    color: #999;
+}
+.header-inner .nav .outline a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 30%;
+}
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+.header-inner .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-inner .user .avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.header-inner .user ul li {
+    line-height: 1.5;
+}
+.header-inner .user .userName {
+    text-transform: uppercase;
+}
+.header-inner .user .userAccess {
+    color: #999;
+    font-size: .9em;
+}
